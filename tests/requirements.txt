@@ -1,0 +1,6 @@
+pytest>=7.4.0
+torch>=2.0.0
+# eval_strategy is available from 4.41; keep the existing major-version guard.
+transformers>=4.41.0,<5.0.0
+datasets>=2.10.0
+peft>=0.4.0
